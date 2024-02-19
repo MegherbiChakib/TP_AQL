@@ -31,7 +31,7 @@ public class PersonTest {
     public void isNotAdultTrueTestWithInterval(){
         //il faut quelle naccepte pas des nombre negative
         // elle faut quelle emaitre une erreure
-        assertFalse(person2.isAdult());
+        assertFalse(person3.isAdult());
     }
 
 }
