@@ -17,21 +17,19 @@ public class StackTest {
     }
 
     //le teste push()
-    @Test
-    public void PushTest(){
 
-    }
 
     //le teste isEmpty() == false
     @Test
     public void isEmptyFalseTest(){
+        stack.push(1);
         assertFalse(stack.isEmpty());
     }
 
 
     @Test
     public void testPushAndPop() {
-        Stack stack = new Stack();
+
         stack.push(1);
         stack.push(2);
         assertEquals(2, stack.pop());
